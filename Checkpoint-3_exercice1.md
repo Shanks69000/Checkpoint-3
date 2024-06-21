@@ -79,4 +79,21 @@ Idem dans les propriétés de l'utilisateur dans "Account", "Log ON To";
 
 #### Q.1.2.3 Mettre en place une stratégie de mot de passe pour durcir les comptes des utilisateurs de l'OU LabUsers.
 
+Ouvrir la console "Group Policy Management", créer une nouvelle GPO(GPO_Password) pour l'OU LabUsers.
+Configurons la stratégie de mot de passe (Computer Configuration -> Policies -> Windows Settings -> Security Settings -> Account Policies -> Password Policy)
 
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-2/eco1-part-2_6.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-2/eco1-part-2_7.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-2/eco1-part-2_8.png)
+
+Puis, nous allons modifier la GPO.
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-2/eco1-part-2_9.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-2/eco1-part-2_10.png)
+
+voici les règles que j'ai choisi.
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-2/eco1-part-2_11.png)
