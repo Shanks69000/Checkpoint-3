@@ -97,3 +97,7 @@ Puis, nous allons modifier la GPO.
 voici les règles que j'ai choisi.
 
 ![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-2/eco1-part-2_11.png)
+
+### Partie 3 : Lecteurs réseaux
+
+#### Q.1.3.1 Créer une GPO Drive-Mount qui monte les lecteurs E: et F: sur les clients.
