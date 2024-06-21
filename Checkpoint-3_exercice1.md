@@ -59,7 +59,24 @@ Allons dans le disque "F" pour retrouver les dossiers individuels
 
 ### Partie 2 : Restriction utilisateurs
 
+#### Q.1.2.1 Faire en sorte que l'utilisateur Gabriel Ghul ne puisse se connecter que du lundi au vendredi, de 7h à 17h.
 
+Ouvrir les propriétés de Gabriel Ghul, allons dans l'onglet Account et cliquer sur Logon Hours, sélectionnons les jours et heures autorisées
 
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-2/eco1-part-2_1.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-2/eco1-part-2_2.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-2/eco1-part-2_3.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-2/eco1-part-2_4.png)
+
+#### Q.1.2.2 De même, bloquer sa connexion au seul ordinateur CLIENT01.
+
+Idem dans les propriétés de l'utilisateur dans "Account", "Log ON To";
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-2/eco1-part-2_5.png)
+
+#### Q.1.2.3 Mettre en place une stratégie de mot de passe pour durcir les comptes des utilisateurs de l'OU LabUsers.
 
 
