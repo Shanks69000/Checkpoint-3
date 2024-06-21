@@ -110,13 +110,29 @@ Il reste 6g de libre
 
 #### Q.2.4.1 Expliquer succinctement les rôles respectifs des 3 composants bareos installés sur la VM.
 
+- bareos-dir : pour "bareos director". Il gère la planification du contrôle et du lancement des tâches de sauvegardes, il contrôle aussi le file daemon et le storage daemon.
+
+- bareos-sd : pour "storage daemon". Il s'occupe des données de sauvegarde sur différents types de supports(disques, stockage distant).
+
+- bareos-fd : pour "file daemon". Il s'occupe de collecter les informations à sauvegarder et de les envoyer au bareos storage daemon.
+
 ### Partie 5 : Filtrage et analyse réseau
 
 #### Q.2.5.1 Quelles sont actuellement les règles appliquées sur Netfilter ?
 
+On tape la commande "nft list tables" pour voir les règles établies.
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo2-part-5/exo2-part-5_1.png)
+
 #### Q.2.5.2 Quels types de communications sont autorisées ?
 
+Les lignes ou on voi accept cela veut dire que c'est autorisé. donc (iifname "lo", tcp port 22, ip protocole icmp, ip6 nexthdr ipv6-icmp) 
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo2-part-5/exo2-part-5_1.png)
+
 #### Q.2.5.3 Quels types sont interdit ?
+
+Toutes les autres règles qui ne sont pas établies
 
 #### Q.2.5.4 Sur nftables, ajouter les règles nécessaires pour autoriser bareos à communiquer avec les clients bareos potentiellement présents sur l'ensemble des machines du réseau local sur lequel se trouve le serveur.
 
