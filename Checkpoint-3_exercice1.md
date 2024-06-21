@@ -101,3 +101,25 @@ voici les règles que j'ai choisi.
 ### Partie 3 : Lecteurs réseaux
 
 #### Q.1.3.1 Créer une GPO Drive-Mount qui monte les lecteurs E: et F: sur les clients.
+
+Suivre les étapes ci-dessous
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-3/eco1-part-3_1.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-3/eco1-part-3_2.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-3/eco1-part-3_3.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-3/eco1-part-3_4.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-3/eco1-part-3_5.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-3/eco1-part-3_6.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-3/eco1-part-3_7.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-3/eco1-part-3_6.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-3/eco1-part-3_8.png)
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo1-part-3/eco1-part-3_9.png)
