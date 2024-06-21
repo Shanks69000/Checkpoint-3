@@ -88,7 +88,23 @@ On vérifie que c'est activé et qu'il y a les deux "UU"
 
 #### Q.2.3.4 Ajouter un nouveau volume logique LVM de 2 Gio qui servira à héberger des sauvegardes. Ce volume doit être monté automatiquement à chaque démarrage dans l'emplacement par défaut : /var/lib/bareos/storage.
 
+On commence par partinonner un nouveau disque 
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo2-part-3/exo2-part-3_13.png)
+
+Maintenant, on crée le volume physique, le groupe de volume et le volume logique
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo2-part-3/exo2-part-3_14.png)
+
+Ensuite on monte le volume automatiquement à chaque démarrage dans l'emplacement par défaut : /var/lib/bareos/storage. Ceci se fait dans le fichier dans le fichier "/etc/fstab" 
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo2-part-3/exo2-part-3_15.png)
+
 #### Q.2.3.5 Combien d'espace disponible reste-t-il dans le groupe de volume ?
+
+Il reste 6g de libre
+
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo2-part-3/exo2-part-3_16.png)
 
 ### Partie 4 : Sauvegardes
 
