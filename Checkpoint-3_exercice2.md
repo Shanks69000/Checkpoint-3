@@ -80,12 +80,11 @@ ensuite j'ajoute  au raid
 
 ![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo2-part-3/exo2-part-3_9.png)
 
-on vérifie
+On vérifie que c'est activé et qu'il y a les deux "UU" 
 
 ![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo2-part-3/exo2-part-3_11.png)
 
-
-
+![](https://github.com/Shanks69000/Checkpoint-3/blob/main/Ressources/exo2-part-3/exo2-part-3_10.png)
 
 #### Q.2.3.4 Ajouter un nouveau volume logique LVM de 2 Gio qui servira à héberger des sauvegardes. Ce volume doit être monté automatiquement à chaque démarrage dans l'emplacement par défaut : /var/lib/bareos/storage.
 
